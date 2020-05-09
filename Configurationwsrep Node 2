@@ -1,0 +1,25 @@
+[mysqld]
+# Path to Galera library
+wsrep_provider=/usr/lib64/galera3/libgalera_smm.so
+# Cluster connection URL contains the IPs of node#1, node#2 and node#3
+;wsrep_cluster_address=gcomm://
+wsrep_cluster_address=gcomm://10.20.1.21,10.20.1.22,10.20.1.20
+# In order for Galera to work correctly binlog format should be ROW
+binlog_format=ROW
+# MyISAM storage engine has only experimental support
+default_storage_engine=InnoDB
+# This changes how InnoDB autoincrement locks are managed and is a requirement for Galera
+innodb_autoinc_lock_mode=2
+# Node #2 address
+wsrep_node_address=10.20.1.22
+# SST method
+wsrep_sst_method=xtrabackup-v2
+# Cluster name
+wsrep_cluster_name=emg_cluster
+# Authentication for SST method
+wsrep_sst_auth="sstuser:s3cret"
+# pxc_strict_mode=ENFORCING
+wsrep_log_conflicts=ON
+wsrep_debug=ON
+wsrep_provider_options='pc.bootstrap=YES'
+#wsrep_osu_method='RSU'
