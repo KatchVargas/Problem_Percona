@@ -1,0 +1,216 @@
+
+2020-05-08T23:11:55.988405Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-05-08T23:11:55.989725Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.18-15-57-log) starting as process 6189 ...
+2020-05-08T23:11:55.994512Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-05-08T23:11:55.994553Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-05-08T23:11:55.994589Z 0 [Note] InnoDB: Uses event mutexes
+2020-05-08T23:11:55.994631Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2020-05-08T23:11:55.994671Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.7
+2020-05-08T23:11:55.994687Z 0 [Note] InnoDB: Using Linux native AIO
+2020-05-08T23:11:55.994984Z 0 [Note] InnoDB: Number of pools: 1
+2020-05-08T23:11:55.995115Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-05-08T23:11:55.997058Z 0 [Note] InnoDB: Initializing buffer pool, total size = 60G, instances = 6, chunk size = 128M
+2020-05-08T23:11:57.323611Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-05-08T23:11:57.610119Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-05-08T23:11:57.624839Z 0 [Note] InnoDB: Crash recovery did not find the parallel doublewrite buffer at /var/lib/mysql/xb_doublewrite
+2020-05-08T23:11:57.625676Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-05-08T23:11:57.887755Z 0 [Note] InnoDB: Created parallel doublewrite buffer at /var/lib/mysql/xb_doublewrite, size 23592960 bytes
+2020-05-08T23:11:58.508601Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-05-08T23:11:58.508759Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-05-08T23:11:58.516220Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-05-08T23:11:58.517130Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-05-08T23:11:58.517161Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-05-08T23:11:58.517911Z 0 [Note] InnoDB: Waiting for purge to start
+2020-05-08T23:11:58.568176Z 0 [Note] InnoDB: Percona XtraDB (http://www.percona.com) 5.7.18-15 started; log sequence number 10844515220080
+2020-05-08T23:11:58.568215Z 0 [Warning] InnoDB: Skipping buffer pool dump/restore during wsrep recovery.
+2020-05-08T23:11:58.568538Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-05-08T23:11:58.572637Z 0 [Note] WSREP: Initial TC log open: binlog
+2020-05-08T23:11:58.574445Z 0 [Note] WSREP: Read WSREPXid (InnoDB): 324ee5bb-5be3-11e7-9ea8-1f02259db6e6:10205303909
+2020-05-08T23:11:58.574472Z 0 [Note] WSREP: Recovered position: 324ee5bb-5be3-11e7-9ea8-1f02259db6e6:10205303909
+2020-05-08T23:11:58.574489Z 0 [Note] Binlog end
+2020-05-08T23:11:58.574799Z 0 [Note] Shutting down plugin 'ngram'
+2020-05-08T23:11:58.574833Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-05-08T23:11:58.574873Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-05-08T23:11:58.574909Z 0 [Note] Shutting down plugin 'partition'
+2020-05-08T23:11:58.574923Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-05-08T23:11:58.574962Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-05-08T23:11:58.574969Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-05-08T23:11:58.575033Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-05-08T23:11:58.575045Z 0 [Note] Shutting down plugin 'INNODB_CHANGED_PAGES'
+2020-05-08T23:11:58.575050Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-05-08T23:11:58.575052Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-05-08T23:11:58.575055Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-05-08T23:11:58.575058Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-05-08T23:11:58.575061Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-05-08T23:11:58.575063Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-05-08T23:11:58.575066Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-05-08T23:11:58.575078Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-05-08T23:11:58.575140Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-05-08T23:11:58.575226Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-05-08T23:11:58.575256Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-05-08T23:11:58.575260Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-05-08T23:11:58.575263Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-05-08T23:11:58.575272Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-05-08T23:11:58.575275Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-05-08T23:11:58.575278Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-05-08T23:11:58.575281Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-05-08T23:11:58.575290Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-05-08T23:11:58.575293Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-05-08T23:11:58.575305Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-05-08T23:11:58.575335Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-05-08T23:11:58.575339Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-05-08T23:11:58.575351Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-05-08T23:11:58.575391Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-05-08T23:11:58.575439Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-05-08T23:11:58.575472Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-05-08T23:11:58.575507Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-05-08T23:11:58.575546Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-05-08T23:11:58.575580Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-05-08T23:11:58.575625Z 0 [Note] Shutting down plugin 'XTRADB_ZIP_DICT_COLS'
+2020-05-08T23:11:58.575657Z 0 [Note] Shutting down plugin 'XTRADB_ZIP_DICT'
+2020-05-08T23:11:58.575689Z 0 [Note] Shutting down plugin 'XTRADB_RSEG'
+2020-05-08T23:11:58.575721Z 0 [Note] Shutting down plugin 'XTRADB_INTERNAL_HASH_TABLES'
+2020-05-08T23:11:58.575750Z 0 [Note] Shutting down plugin 'XTRADB_READ_VIEW'
+2020-05-08T23:11:58.575780Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-05-08T23:11:58.575887Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-05-08T23:11:58.575974Z 0 [Note] InnoDB: Starting shutdown...
+2020-05-08T23:11:59.676878Z 0 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2020-05-08T23:12:01.815055Z 0 [Note] InnoDB: Shutdown completed; log sequence number 10844515220099
+2020-05-08T23:12:01.815367Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-05-08T23:12:01.815392Z 0 [Note] Shutting down plugin 'CSV'
+2020-05-08T23:12:01.815400Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-05-08T23:12:01.815406Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-05-08T23:12:01.815418Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-05-08T23:12:01.815422Z 0 [Note] Shutting down plugin 'wsrep'
+2020-05-08T23:12:01.815620Z 0 [Note] Shutting down plugin 'binlog'
+2020-05-08T23:12:01.816467Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2020-05-08T23:12:42.708227Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-05-08T23:12:42.709208Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.18-15-57-log) starting as process 8283 ...
+2020-05-08T23:12:42.711992Z 0 [Note] WSREP: Setting wsrep_ready to false
+2020-05-08T23:12:42.712026Z 0 [Note] WSREP: No pre-stored wsrep-start position found. Skipping position initialization.
+2020-05-08T23:12:42.712062Z 0 [Note] WSREP: wsrep_load(): loading provider library '/usr/lib64/galera3/libgalera_smm.so'
+2020-05-08T23:12:42.716240Z 0 [Note] WSREP: wsrep_load(): Galera 3.20(r7e383f7) by Codership Oy <info@codership.com> loaded successfully.
+2020-05-08T23:12:42.716328Z 0 [Note] WSREP: CRC-32C: using hardware acceleration.
+2020-05-08T23:12:42.716721Z 0 [Note] WSREP: Found saved state: 324ee5bb-5be3-11e7-9ea8-1f02259db6e6:10205303909, safe_to_bootsrap: 0
+2020-05-08T23:12:42.717855Z 0 [Note] WSREP: Passing config to GCS: base_dir = /var/lib/mysql/; base_host = 10.20.1.21; base_port = 4567; cert.log_conflicts = no; debug = no; evs.auto_evict = 0; evs.delay_margin = PT1S; evs.delayed_keep_period = PT30S; evs.inactive_check_period = PT0.5S; evs.inactive_timeout = PT15S; evs.join_retrans_period = PT1S; evs.max_install_timeouts = 3; evs.send_window = 10; evs.stats_report_period = PT1M; evs.suspect_timeout = PT5S; evs.user_send_window = 4; evs.view_forget_timeout = PT24H; gcache.dir = /var/lib/mysql/; gcache.keep_pages_count = 0; gcache.keep_pages_size = 0; gcache.mem_size = 0; gcache.name = /var/lib/mysql//galera.cache; gcache.page_size = 128M; gcache.recover = no; gcache.size = 128M; gcomm.thread_prio = ; gcs.fc_debug = 0; gcs.fc_factor = 1; gcs.fc_limit = 100; gcs.fc_master_slave = no; gcs.max_packet_size = 64500; gcs.max_throttle = 0.25; gcs.recv_q_hard_limit = 9223372036854775807; gcs.recv_q_soft_limit = 0.25; gcs.sync_donor = no; gmcast.segment = 0; gmcast.version = 0; pc.announce_timeout = PT3S; pc.checksum = false; pc.ignore_quorum = false; pc.ignore_sb = false; pc.npvo = false; pc.recovery = 1; pc.version = 0; pc.wait_prim = true; pc.wait_prim_timeout = PT30S; pc.weight = 1; protonet.backend = asio; protonet.version = 0; repl.causal_read_timeout = PT30S; repl.commit_order = 3; repl.key_format = FLAT8; repl.max_ws_size = 2147483647; repl.proto_max = 7; socket.checksum = 2; socket.recv_buf_size = 212992; 
+2020-05-08T23:12:42.728383Z 0 [Note] WSREP: GCache history reset: old(00000000-0000-0000-0000-000000000000:0) -> new(324ee5bb-5be3-11e7-9ea8-1f02259db6e6:10205303909)
+2020-05-08T23:12:42.728640Z 0 [Note] WSREP: Assign initial position for certification: 10205303909, protocol version: -1
+2020-05-08T23:12:42.728671Z 0 [Note] WSREP: Preparing to initiate SST/IST
+2020-05-08T23:12:42.728686Z 0 [Note] WSREP: Starting replication
+2020-05-08T23:12:42.728701Z 0 [Note] WSREP: Setting initial position to 324ee5bb-5be3-11e7-9ea8-1f02259db6e6:10205303909
+2020-05-08T23:12:42.728921Z 0 [Note] WSREP: Using CRC-32C for message checksums.
+2020-05-08T23:12:42.729047Z 0 [Note] WSREP: gcomm thread scheduling priority set to other:0 
+2020-05-08T23:12:42.729165Z 0 [Warning] WSREP: Fail to access the file (/var/lib/mysql//gvwstate.dat) error (No such file or directory). It is possible if node is booting for first time or re-booting after a graceful shutdown
+2020-05-08T23:12:42.729187Z 0 [Note] WSREP: Restoring primary-component from disk failed. Either node is booting for first time or re-booting after a graceful shutdown
+2020-05-08T23:12:42.729737Z 0 [Note] WSREP: GMCast version 0
+2020-05-08T23:12:42.730082Z 0 [Note] WSREP: (6b6c564c, 'tcp://0.0.0.0:4567') listening at tcp://0.0.0.0:4567
+2020-05-08T23:12:42.730109Z 0 [Note] WSREP: (6b6c564c, 'tcp://0.0.0.0:4567') multicast: , ttl: 1
+2020-05-08T23:12:42.730526Z 0 [Note] WSREP: EVS version 0
+2020-05-08T23:12:42.730666Z 0 [Note] WSREP: gcomm: connecting to group 'emg_cluster', peer '10.20.1.21:,10.20.1.22:,10.20.1.20:'
+2020-05-08T23:12:42.731883Z 0 [Note] WSREP: (6b6c564c, 'tcp://0.0.0.0:4567') connection established to 6b6c564c tcp://10.20.1.21:4567
+2020-05-08T23:12:42.731918Z 0 [Warning] WSREP: (6b6c564c, 'tcp://0.0.0.0:4567') address 'tcp://10.20.1.21:4567' points to own listening address, blacklisting
+2020-05-08T23:12:42.732389Z 0 [Note] WSREP: (6b6c564c, 'tcp://0.0.0.0:4567') connection established to cb97cce9 tcp://10.20.1.20:4567
+2020-05-08T23:12:42.732526Z 0 [Note] WSREP: (6b6c564c, 'tcp://0.0.0.0:4567') turning message relay requesting on, nonlive peers: 
+2020-05-08T23:12:42.732566Z 0 [Note] WSREP: (6b6c564c, 'tcp://0.0.0.0:4567') connection established to 67adc0fe tcp://10.20.1.22:4567
+2020-05-08T23:12:42.767108Z 0 [Note] WSREP: declaring 67adc0fe at tcp://10.20.1.22:4567 stable
+2020-05-08T23:12:42.767142Z 0 [Note] WSREP: declaring cb97cce9 at tcp://10.20.1.20:4567 stable
+2020-05-08T23:12:42.767539Z 0 [Note] WSREP: Node 67adc0fe state primary
+2020-05-08T23:12:42.768000Z 0 [Note] WSREP: Current view of cluster as seen by this node
+view (view_id(PRIM,67adc0fe,130)
+memb {
+        67adc0fe,0
+        6b6c564c,0
+        cb97cce9,0
+        }
+joined {
+        }
+left {
+        }
+partitioned {
+        }
+)
+2020-05-08T23:12:42.768029Z 0 [Note] WSREP: Save the discovered primary-component to disk
+2020-05-08T23:12:43.231307Z 0 [Note] WSREP: gcomm: connected
+2020-05-08T23:12:43.231411Z 0 [Note] WSREP: Shifting CLOSED -> OPEN (TO: 0)
+2020-05-08T23:12:43.231504Z 0 [Note] WSREP: New COMPONENT: primary = yes, bootstrap = no, my_idx = 1, memb_num = 3
+2020-05-08T23:12:43.231535Z 0 [Note] WSREP: STATE EXCHANGE: Waiting for state UUID.
+2020-05-08T23:12:43.231541Z 0 [Note] WSREP: Waiting for SST/IST to complete.
+2020-05-08T23:12:43.231589Z 0 [Note] WSREP: STATE EXCHANGE: sent state msg: 6b722f1a-9181-11ea-90c0-23966a258ab6
+2020-05-08T23:12:43.231609Z 0 [Note] WSREP: STATE EXCHANGE: got state msg: 6b722f1a-9181-11ea-90c0-23966a258ab6 from 0 (emg2)
+2020-05-08T23:12:43.231698Z 0 [Note] WSREP: STATE EXCHANGE: got state msg: 6b722f1a-9181-11ea-90c0-23966a258ab6 from 2 (garb)
+2020-05-08T23:12:43.232056Z 0 [Note] WSREP: STATE EXCHANGE: got state msg: 6b722f1a-9181-11ea-90c0-23966a258ab6 from 1 (emg1)
+2020-05-08T23:12:43.232077Z 0 [Note] WSREP: Quorum results:
+        version    = 4,
+        component  = PRIMARY,
+        conf_id    = 126,
+        members    = 2/3 (primary/total),
+        act_id     = 10211250216,
+        last_appl. = -1,
+        protocols  = 0/7/3 (gcs/repl/appl),
+        group UUID = 324ee5bb-5be3-11e7-9ea8-1f02259db6e6
+2020-05-08T23:12:43.232103Z 0 [Note] WSREP: Flow-control interval: [141, 141]
+2020-05-08T23:12:43.232113Z 0 [Note] WSREP: Shifting OPEN -> PRIMARY (TO: 10211250216)
+2020-05-08T23:12:43.232181Z 2 [Note] WSREP: State transfer required: 
+        Group state: 324ee5bb-5be3-11e7-9ea8-1f02259db6e6:10211250216
+        Local state: 324ee5bb-5be3-11e7-9ea8-1f02259db6e6:10205303909
+2020-05-08T23:12:43.232209Z 2 [Note] WSREP: New cluster view: global state: 324ee5bb-5be3-11e7-9ea8-1f02259db6e6:10211250216, view# 127: Primary, number of nodes: 3, my index: 1, protocol version 3
+2020-05-08T23:12:43.232217Z 2 [Warning] WSREP: Gap in state sequence. Need state transfer.
+2020-05-08T23:12:43.232231Z 2 [Note] WSREP: Setting wsrep_ready to false
+2020-05-08T23:12:43.232344Z 0 [Note] WSREP: Initiating SST/IST transfer on JOINER side (wsrep_sst_xtrabackup-v2 --role 'joiner' --address '10.20.1.21' --datadir '/var/lib/mysql/' --defaults-file '/etc/my.cnf' --defaults-group-suffix '' --parent '8283'  '' )
+        2020-05-08T23:12:43.459759Z WSREP_SST: [WARNING] Found a stale sst_in_progress file: /var/lib/mysql//sst_in_progress
+2020-05-08T23:12:43.688696Z 2 [Note] WSREP: Prepared SST/IST request: xtrabackup-v2|10.20.1.21:4444/xtrabackup_sst//1
+2020-05-08T23:12:43.688739Z 2 [Note] WSREP: wsrep_notify_cmd is not defined, skipping notification.
+2020-05-08T23:12:43.688795Z 2 [Note] WSREP: REPL Protocols: 7 (3, 2)
+2020-05-08T23:12:43.688818Z 2 [Note] WSREP: Assign initial position for certification: 10211250216, protocol version: 3
+2020-05-08T23:12:43.688964Z 0 [Note] WSREP: Service thread queue flushed.
+2020-05-08T23:12:43.689013Z 2 [Note] WSREP: Check if state gap can be serviced using IST
+2020-05-08T23:12:43.689136Z 2 [Note] WSREP: IST receiver addr using tcp://10.20.1.21:4568
+2020-05-08T23:12:43.689313Z 2 [Note] WSREP: Prepared IST receiver, listening at: tcp://10.20.1.21:4568
+2020-05-08T23:12:43.689341Z 2 [Note] WSREP: State gap can be likely serviced using IST. SST request though present would be void.
+2020-05-08T23:12:43.689897Z 0 [Warning] WSREP: Member 1.0 (emg1) requested state transfer from '10.20.1.22', but it is impossible to select State Transfer donor: No route to host
+2020-05-08T23:12:43.689946Z 2 [ERROR] WSREP: Requesting state transfer failed: -113(No route to host)
+2020-05-08T23:12:43.689972Z 2 [ERROR] WSREP: State transfer request failed unrecoverably: 113 (No route to host). Most likely it is due to inability to communicate with the cluster primary component. Restart required.
+2020-05-08T23:12:43.690301Z 2 [Note] WSREP: Closing send monitor...
+2020-05-08T23:12:43.690320Z 2 [Note] WSREP: Closed send monitor.
+2020-05-08T23:12:43.690329Z 2 [Note] WSREP: gcomm: terminating thread
+2020-05-08T23:12:43.690345Z 2 [Note] WSREP: gcomm: joining thread
+2020-05-08T23:12:43.690362Z 2 [Note] WSREP: gcomm: closing backend
+2020-05-08T23:12:43.690894Z 2 [Note] WSREP: Current view of cluster as seen by this node
+view (view_id(NON_PRIM,67adc0fe,130)
+memb {
+        6b6c564c,0
+        }
+joined {
+        }
+left {
+        }
+partitioned {
+        67adc0fe,0
+        cb97cce9,0
+        }
+)
+2020-05-08T23:12:43.690960Z 2 [Note] WSREP: Current view of cluster as seen by this node
+view ((empty))
+2020-05-08T23:12:43.691188Z 2 [Note] WSREP: gcomm: closed
+2020-05-08T23:12:43.691224Z 0 [Note] WSREP: New COMPONENT: primary = no, bootstrap = no, my_idx = 0, memb_num = 1
+2020-05-08T23:12:43.691241Z 0 [Note] WSREP: Flow-control interval: [100, 100]
+2020-05-08T23:12:43.691256Z 0 [Note] WSREP: Received NON-PRIMARY.
+2020-05-08T23:12:43.691268Z 0 [Note] WSREP: Shifting PRIMARY -> OPEN (TO: 10211250320)
+2020-05-08T23:12:43.691284Z 0 [Note] WSREP: Received self-leave message.
+2020-05-08T23:12:43.691303Z 0 [Note] WSREP: Flow-control interval: [0, 0]
+2020-05-08T23:12:43.691308Z 0 [Note] WSREP: Received SELF-LEAVE. Closing connection.
+2020-05-08T23:12:43.691312Z 0 [Note] WSREP: Shifting OPEN -> CLOSED (TO: 10211250320)
+2020-05-08T23:12:43.691317Z 0 [Note] WSREP: RECV thread exiting 0: Success
+2020-05-08T23:12:43.691366Z 2 [Note] WSREP: recv_thread() joined.
+2020-05-08T23:12:43.691377Z 2 [Note] WSREP: Closing replication queue.
+2020-05-08T23:12:43.691382Z 2 [Note] WSREP: Closing slave action queue.
+2020-05-08T23:12:43.691388Z 2 [Note] WSREP: /usr/sbin/mysqld: Terminated.
+Terminated
+        2020-05-08T23:12:52.157265Z WSREP_SST: [ERROR] Removing /tmp/pxc_sst_k0RkpFSz/joiner_NZey3c61/xtrabackup_galera_info file due to signal
+        2020-05-08T23:12:52.159512Z WSREP_SST: [ERROR] Removing  file due to signal
+        2020-05-08T23:12:52.161739Z WSREP_SST: [ERROR] ******************* FATAL ERROR ********************** 
+        2020-05-08T23:12:52.162873Z WSREP_SST: [ERROR] Error while getting data from donor node:  exit codes: 143 143
+        2020-05-08T23:12:52.163932Z WSREP_SST: [ERROR] ****************************************************** 
+        2020-05-08T23:12:52.165172Z WSREP_SST: [ERROR] Cleanup after exit with status:32
+Last login: Fri May  8 23:18:48 2020 from 172.26.3.226
